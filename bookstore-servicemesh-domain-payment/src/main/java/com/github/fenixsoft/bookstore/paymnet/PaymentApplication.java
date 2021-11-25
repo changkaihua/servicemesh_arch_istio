@@ -23,6 +23,6 @@ public class PaymentApplication {
                 .contract(new JAXRS2Contract())
                 .decoder(new JacksonDecoder())
                 .encoder(new JacksonEncoder())
-                .target(ProductServiceClient.class, "http://warehouse");
+                .target(ProductServiceClient.class, "http://localhost:8082");
     }
 }

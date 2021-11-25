@@ -2033,47 +2033,11 @@ webpackJsonp([1], {
                         index: "/warehouse",
                         disabled: !t.isAdministrator
                     }
-                }, [t._v("商品库存")]), t._v(" "), r("el-menu-item", {attrs: {index: "/comment"}}, [t._v("留言板")]), t._v(" "), r("el-submenu", {attrs: {index: "2"}}, [r("template", {slot: "title"}, [t._v("相关信息")]), t._v(" "), r("el-menu-item", {attrs: {index: "#"}}, [r("a", {
-                    attrs: {
-                        href: "http://icyfenix.cn/introduction/about-the-fenix-project.html",
-                        target: "_blank"
-                    }
-                }, [t._v("Fenix？这是什么？")])]), t._v(" "), r("el-submenu", {attrs: {index: "#"}}, [r("template", {slot: "title"}, [t._v("选择一种服务端")]), t._v(" "), r("el-menu-item", {attrs: {index: "#1"}}, [r("a", {
-                    attrs: {
-                        href: "http://icyfenix.pub/architecture/monolithic-architecture/springboot-base-arch.html",
-                        target: "_blank"
-                    }
-                }, [t._v("单体架构 By\n              SpringBoot")])]), t._v(" "), r("el-menu-item", {attrs: {index: "#"}}, [r("a", {
-                    attrs: {
-                        href: "http://icyfenix.pub/architecture/microservices-architecture/springcloud-base-arch.html",
-                        target: "_blank"
-                    }
-                }, [t._v("微服务架构 By\n              SpringCloud")])]), t._v(" "), r("el-menu-item", {attrs: {index: "#"}}, [r("a", {
-                    attrs: {
-                        href: "http://icyfenix.pub/architecture/microservices-architecture/kubernetes-base-arch.html",
-                        target: "_blank"
-                    }
-                }, [t._v("微服务架构 By\n              Kubernetes")])]), t._v(" "), r("el-menu-item", {attrs: {index: "#"}}, [r("a", {
-                    attrs: {
-                        href: "http://icyfenix.cn/architecture/serverless-architecture/serverless-arch-knative.html",
-                        target: "_blank"
-                    }
-                }, [t._v("无服务架构 By Knative")])])], 2), t._v(" "), r("el-submenu", {attrs: {index: "#2"}}, [r("template", {slot: "title"}, [t._v("真想买一本书？")]), t._v(" "), r("el-menu-item", {attrs: {index: "#"}}, [r("a", {
-                    attrs: {
-                        href: "https://item.jd.com/63246908517.html",
-                        target: "_blank"
-                    }
-                }, [t._v("《深入理解Java虚拟机（第三版）》 @ 京东")])]), t._v(" "), r("el-menu-item", {attrs: {index: "#"}}, [r("a", {
-                    attrs: {
-                        href: "https://item.jd.com/34377092907.html",
-                        target: "_blank"
-                    }
-                }, [t._v("《智慧的疆界》 @ 京东")])]), t._v(" "), r("el-menu-item", {attrs: {index: "#"}}, [r("a", {
-                    attrs: {
-                        href: "https://item.jd.com/17021405508.html",
-                        target: "_blank"
-                    }
-                }, [t._v("《Java虚拟机规范（Java SE 7）》 @ 京东")])]), t._v(" "), r("el-menu-item", {attrs: {index: "#"}}, [t._v("其他几本别买了，不推荐")])], 2)], 2)], 1), t._v(" "), r("div", {staticClass: "right-action-bar"}, [r("div", {staticClass: "right-action"}, [r("UserInformation")], 1)])], 1)])
+                }, [t._v("商品库存")]), t._v(" "), r("el-menu-item", {attrs: {index: "/comment"}},
+
+                    2)], 1), t._v(" "),
+                    r("div", {staticClass: "right-action-bar"}, [r("div", {staticClass: "right-action"}, [r("UserInformation")], 1)])
+                ], 1)])
             }, staticRenderFns: [function () {
                 var t = this.$createElement, e = this._self._c || t;
                 return e("div", {staticClass: "left-action-bar"}, [e("img", {

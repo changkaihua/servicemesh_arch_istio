@@ -57,6 +57,7 @@ public class ResourceServerConfiguration extends ResourceServerConfigurerAdapter
     /**
      * 配置HTTP访问相关的安全选项
      */
+    @Override
     public void configure(HttpSecurity http) throws Exception {
         // 基于JWT来绑定用户状态，所以服务端可以是无状态的
         http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);

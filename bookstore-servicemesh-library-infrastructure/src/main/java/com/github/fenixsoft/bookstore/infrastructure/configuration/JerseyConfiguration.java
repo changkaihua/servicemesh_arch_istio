@@ -31,7 +31,7 @@ import java.util.Objects;
 import java.util.stream.Collectors;
 
 /**
- * Jersey服务器配置
+ * Jersey 服务器配置
  * <p>
  * 使用Jersey来提供对JAX-RS（JSR 370：Java API for Restful Web Services）的支持
  * 这里设置了所有服务的前缀路径“restful”和restful服务资源的包路径
